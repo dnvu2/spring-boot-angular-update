@@ -1,0 +1,16 @@
+= New Application with Spring Boot and Angular
+
+Requires Azure CLI to update
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+
+```
+az login
+```
+
+```
+mvn clean package
+```
+
+```
+mvn azure-webapp:deploy
+```
